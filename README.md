@@ -96,7 +96,7 @@ pip install -r requirements.txt
 ## Running the Application
 
 ```bash
-uvicorn src.main:app --reload
+uvicorn main:app --reload
 ```
 
 The application will be available at `http://localhost:8000`
